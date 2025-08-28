@@ -31,14 +31,14 @@ public class ProductOfSubArray {
     public static int prodOfSubarray(int[] arr, int n) {
         int maxi = Integer.MIN_VALUE;
         int sum = 0;
-        int start = 0;
-        int ansStart, ansEnd;
-        ansStart = ansEnd = -1;
+        int start = 0;    // for prining subArray indices
+        int ansStart, ansEnd;   // for prining subArray indices
+        ansStart = ansEnd = -1;  // for prining subArray indices
         for (int i = 0; i < n; i++) {
-            if (sum == 0) start = i;
+            if (sum == 0) start = i;    // for prining subArray indices
             sum += arr[i];
-            ansStart = start;
-            ansEnd = i;
+            ansStart = start;    // for prining subArray indices
+            ansEnd = i;   // for prining subArray indices
 
             if (sum > maxi) maxi = sum;
             if (sum < 0) sum = 0;
