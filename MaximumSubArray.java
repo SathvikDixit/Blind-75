@@ -27,8 +27,8 @@
 
 // Optimal Solution
 
-public class ProductOfSubArray {
-    public static int prodOfSubarray(int[] arr, int n) {
+public class MaximumSubArray {
+    public static int maxumumSubarray(int[] arr, int n) {
         int maxi = Integer.MIN_VALUE;
         int sum = 0;
         int start = 0;    // for prining subArray indices
@@ -50,7 +50,7 @@ public class ProductOfSubArray {
     public static void main(String[] args) {
         int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
         int n = arr.length;
-        int ans = prodOfSubarray(arr, n);
+        int ans = maxumumSubarray(arr, n);
         System.out.println("The maximum sum of subarray is: " + ans);
     }
 } 
