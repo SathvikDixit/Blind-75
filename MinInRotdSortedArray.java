@@ -44,7 +44,7 @@ public class MinInRotdSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] arr = {4, 5, 6, 7, 9, 0, 2, 3};
+        int[] arr = {4, 5, 6, 7, 9, 99, 2, 3};
         int soln = minimumInRotatedSortedArray(arr);
         System.out.println("The minimum element in the array is: "+soln);
     }
