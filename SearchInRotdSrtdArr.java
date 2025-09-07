@@ -37,8 +37,3 @@ public class SearchInRotdSrtdArr {
         System.out.println("The target found at index: "+soln);
     }
 }
-
-
-
-
-
