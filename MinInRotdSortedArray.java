@@ -50,12 +50,3 @@ public class MinInRotdSortedArray {
     }
 
 }
-
-
-
-
-
-
-
-
-
