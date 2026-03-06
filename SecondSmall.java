@@ -13,7 +13,7 @@ public class SecondSmall {
         return secSmall;
     }
     public static void main(String[] args) {
-        int[] arr = {1, 0, 1, 3, 4, 5};
+        int[] arr = {1, 0, 2, 3, 4, 5};
         System.out.println("second smalled element is: "+SecondSmall.secondSmallest(arr));
     }
 }
