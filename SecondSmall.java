@@ -6,8 +6,6 @@ public class SecondSmall {
         
         for(int i = 0; i < n; i++) {
             smallest = Math.min(smallest, arr[i]);
-        }
-        for(int i = 0; i < n; i++) {
             if (arr[i] < secSmall && arr[i] != smallest){
                 secSmall = arr[i];
             }
@@ -15,7 +13,8 @@ public class SecondSmall {
         return secSmall;
     }
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 3, 4, 5};
+        int[] arr = {1, 0, 1, 3, 4, 5};
         System.out.println("second smalled element is: "+SecondSmall.secondSmallest(arr));
     }
 }
+
