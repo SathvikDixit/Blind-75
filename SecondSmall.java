@@ -12,7 +12,6 @@ public class SecondSmall {
                 secSmall = arr[i];
             }
         }
-
         return secSmall;
     }
     public static void main(String[] args) {
