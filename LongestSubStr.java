@@ -2,7 +2,7 @@ import java.util.*;
 
 class longestSubStr {
 
-    public static int longestSubStr(String s) {
+    public static int longestSubStrr(String s) {
         int n = s.length();
         int maxLength = 0; 
 
@@ -30,7 +30,7 @@ class longestSubStr {
 
     public static void main(String[] args) {
         String s = "pwwkew";
-        int soln = longestSubStr(s);
+        int soln = longestSubStrr(s);
         System.out.println(
             "The length of the longest substring without repeating characters is: " + soln
         );
