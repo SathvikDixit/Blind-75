@@ -12,9 +12,9 @@ public class IncreaseDecreaseArray {
 
         int l = 0, r = tempri.length - 1;
         while (l < r) {
-            int temp = arr[l];
-            arr[l] = arr[r];
-            arr[r] = temp;
+            int temp = tempri[l];
+            tempri[l] = tempri[r];
+            tempri[r] = temp;
             l++;
             r--;
         }
