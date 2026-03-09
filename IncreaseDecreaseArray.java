@@ -1,21 +1,33 @@
 import java.util.*;
 public class IncreaseDecreaseArray {
     public static int[] increase(int[] arr) {
-        Arrays.sort(arr);
-        return arr;
+        int[] temp = arr.clone();
+        Arrays.sort(temp);
+        return temp;
     }
 
     public static int[] decrease(int[] arr) {
-        int l = 0, r = arr.length - 1;
-        while (l < r) {
+        int[] tempri = arr.clone();
+        Arrays.sort(tempri);
 
+        int l = 0, r = tempri.length - 1;
+        while (l < r) {
+            int temp = arr[l];
+            arr[l] = arr[r];
+            arr[r] = temp;
+            l++;
+            r--;
         }
-        return arr;
+        return tempri;
     }
 
     public static void main(String[] args) {
         int[] arr = {5, 3, 8, 2, 1};
         int[] ans = increase(arr);
+        int[] ans2 = decrease(arr);
+        System.out.println("Given Array: "+Arrays.toString(arr));
         System.out.println("The array in increasing order is: " + Arrays.toString(ans));
+        System.out.println("The array in decreasing order is: " + Arrays.toString(ans2));
+        
     }
 }
