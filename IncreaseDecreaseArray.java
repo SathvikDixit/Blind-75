@@ -22,9 +22,12 @@ public class IncreaseDecreaseArray {
     }
 
     public static void main(String[] args) {
+
         int[] arr = {5, 3, 8, 2, 1};
+        
         int[] ans = increase(arr);
         int[] ans2 = decrease(arr);
+        
         System.out.println("Given Array: "+Arrays.toString(arr));
         System.out.println("The array in increasing order is: " + Arrays.toString(ans));
         System.out.println("The array in decreasing order is: " + Arrays.toString(ans2));
