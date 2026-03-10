@@ -14,7 +14,7 @@ public class CountFrequency {
             }
             System.out.println(arr[i]+" "+count);
         }
-    }
+    } //    
 
     public static void main(String[] args) {
         int[] arr = {4, 8, 2, 9, 1, 4, 2, 0, 0};
