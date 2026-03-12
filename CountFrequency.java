@@ -33,3 +33,6 @@ public class CountFrequency {
         countFreq(arr);
     }
 }
+
+
+// T.C = O(n)       S.C = O(n`)
