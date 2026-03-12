@@ -23,7 +23,7 @@ public class CountFrequency {
             map.put(num, map.getOrDefault(num, 0)+1);
         }
 
-        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey()+" occurs "+entry.getValue()+" times.");
         }
     }
