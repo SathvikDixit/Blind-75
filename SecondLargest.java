@@ -15,6 +15,7 @@ public class SecondLargest {
         }
         return  secLargest;
     }
+    
     public static void main(String[] args) {
         int[] arr = {4, 2, 9, 8, 5, 1};
         System.out.println("The second largest element is: " + secondLargest(arr));
