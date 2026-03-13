@@ -1,4 +1,4 @@
-public class MaxAndMinFreq {
+public class MaxAndMinFreq { 
     public static void maxNminFreq(int[] arr, int n) {
         boolean[] visited = new boolean[n];
         
