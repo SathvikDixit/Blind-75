@@ -13,7 +13,6 @@ public class SecondLargest {
                 secLargest = arr[i];
             }
         }
-        
         return  secLargest;
     }
     public static void main(String[] args) {
