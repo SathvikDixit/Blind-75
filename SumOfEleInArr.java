@@ -16,7 +16,7 @@ public class SumOfEleInArr {
         int[] arr = {1, 2, 3, 4, 5, 6, 7,8, 9};
         int n = arr.length;
 
-        System.out.println("Sum of elements with most naive solution "+sumOfEle(arr, n));
+        System.out.println("Sum of elements with most naive solution [T.C => O(1)] "+sumOfEle(arr, n));
 
         System.out.println("Sum of elements with optimal solution [T.C => O(1)]"+sumOfEleOptimal(arr, n));
     }
