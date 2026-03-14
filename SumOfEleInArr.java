@@ -18,6 +18,6 @@ public class SumOfEleInArr {
 
         System.out.println(sumOfEle(arr, n));
 
-        System.out.println();
+        System.out.println(sumOfEleOptimal(arr, n));
     }
 }
