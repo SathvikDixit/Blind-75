@@ -1,7 +1,6 @@
 import java.util.*;
 public class RemoveDuplicates {
 
-
     public static int[] removeDuplicts(int[] arr) {
         Arrays.sort(arr);
         int n = arr.length;
