@@ -21,6 +21,3 @@ public class SumOfEleInArr {
         System.out.println("Sum of elements with optimal solution [T.C => O(1)]: "+sumOfEleOptimal(arr, n));
     }
 }
-
-
-
