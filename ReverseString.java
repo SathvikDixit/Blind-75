@@ -11,6 +11,7 @@ public class ReverseString {
     }
     public static void main(String[] args) {
         String str = "hello";
-        System.out.println(revSttr(str));
+        System.out.println(str+" is the original string");
+        System.out.println(revSttr(str)+" is the reversed string");
     }
 }
