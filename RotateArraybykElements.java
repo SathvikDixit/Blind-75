@@ -5,7 +5,7 @@ public class RotateArraybykElements {
             arr[start] = arr[end];
             arr[end] = temp;
             start++;
-            end++;
+            end--;
         }
     }
 
@@ -31,14 +31,14 @@ public class RotateArraybykElements {
 
         leftRotate(arr, k);
         System.out.println("Left Rotation: ");
-        for(int num : arr) System.out.println(num+" ");
+        for(int num : arr) System.out.print(num+" ");
         System.out.println();
 
         arr = new int[]{1, 2, 3, 4, 5, 6};
 
         rightRotate(arr, k);
         System.out.println("Right rotation: ");
-        for(int num : arr) System.out.println(num+" ");
+        for(int num : arr) System.out.print(num+" ");
         System.out.println();
     }
 }
