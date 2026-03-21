@@ -20,10 +20,10 @@ public class RotateArraybykElements {
         reverseSection(arr, 0, n-1);
     }
 
-    public static void rightRotate(int[] arr, int k) {
+    /*public static void rightRotate(int[] arr, int k) {
         int n = arr.length;
         leftRotate(arr, n - (k%n));
-    }
+    }*/
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
@@ -36,9 +36,9 @@ public class RotateArraybykElements {
 
         arr = new int[]{1, 2, 3, 4, 5, 6};
 
-        rightRotate(arr, k);
+        /*rightRotate(arr, k);
         System.out.println("Right rotation: ");
         for(int num : arr) System.out.print(num+" ");
-        System.out.println();
+        System.out.println();*/
     }
 }
