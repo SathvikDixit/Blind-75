@@ -34,7 +34,7 @@ public class RotateArraybykElements {
         for(int num : arr) System.out.print(num+" ");
         System.out.println();
 
-        arr = new int[]{1, 2, 3, 4, 5, 6};
+        // arr = new int[]{1, 2, 3, 4, 5, 6};
 
         /*rightRotate(arr, k);
         System.out.println("Right rotation: ");
